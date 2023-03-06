@@ -127,7 +127,7 @@
 
 
 .tarjetas {
-    margin-top: 20px;
+    margin-top: 40px;
     column-gap: 80px;
     row-gap: 20px;
    
@@ -421,6 +421,42 @@
     display: flex;
     justify-content: center;
 }
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+}
+
+.scale-rotate {
+    transition: 1s;
+}
+
+.scale-rotate:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 767px) {
 
