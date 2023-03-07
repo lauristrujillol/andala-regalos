@@ -6,9 +6,9 @@
 }
 
 
-/*ANDALA HEADER*/
+/*ANDALA HEADER - LO HABIA HECHO CON GRID PERO LO CAMBIE CON BOOSTRAP*/
 
-.andala {
+/* .andala {
     font-family: poppins;
   
     font-weight: bold;
@@ -24,9 +24,11 @@
         "logo logo quien regalos rebajas contacto"
         "logo logo .     .       .       .";   
 
-}
+} */
 
-.andala div img {
+
+
+/*.andala div img {
     width: 150px;
 }
 
@@ -66,7 +68,10 @@
 
 .andala__contacto {
     grid-area: contacto;
-}
+}*/
+
+
+
 
 
 .banner {
@@ -292,9 +297,9 @@
     margin-top: 20px;
     font-family: poppins;
     font-weight: bolder;
-    font-size: 12px;
     display: flex;
     justify-content: center;
+    
 }
 
 .categorías {
@@ -420,6 +425,24 @@
     justify-content: center;
 }
 
+
+.paddingfondo {
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-family: poppins;
+    color: #5C4030;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
 .scale {
     transition: 1s;
 }
@@ -449,7 +472,7 @@
 @media screen and (max-width: 767px) {
 
     
-    .banner-home {
+.banner-home {
         width: 100%;
      
         display: flex;
@@ -457,13 +480,13 @@
         align-items: center;
     }
 
-    .tarjetasRebajas {
+.tarjetasRebajas {
     margin-top: 20px;
     column-gap: 20px;
     row-gap: 10px;
     }
 
-    .tarjeticas {
+.tarjeticas {
         width: 200px;
         height: 280px;
         margin-top: 5px;
@@ -476,18 +499,18 @@
         box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
     }
 
-    .tarjetas {
+.tarjetas {
         margin-top: 20px;
         column-gap: 20px;
         row-gap: 10px;
     }
 
-    .card {
+.card {
         width: 200px; 
         height: 310px;
     }
 
-    .card_title {
+.card_title {
             font-size: 16px;
             font-family: poppins;
             font-weight: 600;
@@ -495,13 +518,13 @@
             margin-left: 8px;
     }
 
-    .andala {
+.andala {
     margin-top: 20px;
     column-gap: 20px;
     row-gap: 10px;
     }
 
-    .center1 {
+.center1 {
         width: 100%;
      
         display: flex;
@@ -509,7 +532,7 @@
         align-items: center;
     }
 
-   .cifras {
+.cifras {
     font-family: poppins;
 
     column-gap: 20px;
@@ -536,6 +559,14 @@
     color: #372216;
 }
 
+.categorías {
+    display: none;
+    
+}
+
+.mapa {
+    display: none;
+}
 
 }
 
