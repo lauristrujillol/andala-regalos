@@ -1,0 +1,421 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: #E2B69F;
+}
+*::selection {
+  background-color: #E2B69F;
+}
+
+.logo {
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  font-family: poppins;
+  color: #5C4030;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.linksinicio {
+  list-style-type: none;
+  font-family: poppins;
+  color: #372216;
+  margin-top: 20px;
+  -moz-column-gap: 800px;
+       column-gap: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_image {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.card__prices {
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 400;
+  color: #372216;
+  padding: 4px;
+  margin-left: 8px;
+  text-decoration: line-through;
+}
+
+.tarjetasRebajas {
+  margin-top: 10px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeticas {
+  margin-top: 20px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  row-gap: 20px;
+  background-color: #ffffff;
+  width: 300px;
+  height: 370px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card_title {
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #372216;
+  margin-left: 8px;
+}
+
+.card_price {
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: bold;
+  color: #372216;
+  padding: 4px;
+  margin-left: 8px;
+}
+
+.btn {
+  background-color: #E2B69F;
+  font-family: poppins;
+  color: #372216;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 4px;
+}
+
+.form {
+  margin-top: 20px;
+  background-color: #D7DADE;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  padding: 8px;
+  width: 480px;
+  margin-top: 15px;
+}
+
+.form h1 {
+  font-size: 30px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #372216;
+}
+
+.form h2 {
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 600;
+  color: #372216;
+}
+
+.img-fluid {
+  margin-top: 20px;
+}
+
+.pie {
+  background-color: #E2B69F;
+  padding: 15px;
+  margin-top: 35px;
+  color: hsl(22, 31%, 27%);
+  font-family: poppins;
+  font-weight: bolder;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.imagenPrincipal {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.cifras {
+  font-family: poppins;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datos {
+  width: 500;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.datos h1 {
+  height: 180px;
+  font-size: 145px;
+  color: #F2BB80;
+}
+
+.datos h2 {
+  font-size: 20px;
+  color: #372216;
+}
+
+.detalles {
+  color: #5C4030;
+  margin-top: 20px;
+  font-family: poppins;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.categorías {
+  list-style-type: none;
+  margin-left: 20px;
+  font-family: poppins;
+  color: #5C4030;
+}
+
+.categorías h1 {
+  font-size: 22px;
+}
+
+.categorías {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  height: 405px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.tarjetas {
+  margin-top: 30px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.tarjetas .card_promotion {
+  font-family: poppins;
+  font-weight: bolder;
+  margin-left: 8px;
+  color: #c8335a;
+}
+
+.mapa {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.formularios {
+  width: 400px;
+  background-color: #f3f4f5;
+  padding: 12px;
+  margin-left: 60px;
+  margin-top: 25px;
+  border-radius: 4px;
+  font-family: poppins;
+  color: #372216;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.formularios .formularios h1 {
+  font-size: 25px;
+  color: #5C4030;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  width: 100%;
+  font-family: poppins;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ebecef;
+}
+
+.dejanostucomentario {
+  width: 100%;
+  height: 150px;
+  font-family: poppins;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ebecef;
+}
+
+.boton {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  background-color: #5C4030;
+  color: white;
+  margin: 16px 0;
+  font-family: poppins;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.formu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scale {
+  transition: 1s;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
+.rotate-vert-center {
+  animation: rotate-vert-center 0.9s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@keyframes rotate-vert-center {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.scale-up-ver-center {
+  animation: scale-up-ver-center 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes scale-up-ver-center {
+  0% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner-home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tarjetasRebajas {
+    margin-top: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 10px;
+  }
+  .tarjeticas {
+    width: 200px;
+    height: 280px;
+    margin-top: 5px;
+    -moz-column-gap: 80px;
+         column-gap: 80px;
+    row-gap: 20px;
+    background-color: #ffffff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+  }
+  .tarjetas {
+    margin-top: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 10px;
+  }
+  .card {
+    width: 200px;
+    height: 310px;
+  }
+  .card_title {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 600;
+    color: #372216;
+    margin-left: 8px;
+  }
+  .andala {
+    margin-top: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 10px;
+  }
+  .center1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cifras {
+    font-family: poppins;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    row-gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .datos {
+    width: 200px;
+  }
+  .datos h1 {
+    height: 80px;
+    font-size: 50px;
+    color: #F2BB80;
+  }
+  .datos h2 {
+    font-size: 11px;
+    color: #372216;
+  }
+  .categorías {
+    display: none;
+  }
+  .mapa {
+    display: none;
+  }
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,31 @@
+.cifras {
+    font-family: poppins;
+
+    column-gap: 50px;
+    row-gap: 10px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datos {
+    width: 500;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.datos h1 {
+    height: 180px;
+    font-size: 145px;
+    color: #F2BB80;    
+}
+
+.datos h2 {
+    font-size: 20px;
+    color: #372216;
+}

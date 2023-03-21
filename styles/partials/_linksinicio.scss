@@ -1,0 +1,15 @@
+.linksinicio {
+    list-style-type: none;
+    font-family: poppins;
+    color: #372216;
+    margin-top: 20px;
+    column-gap: 800px;
+
+
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+.detalles {
+    color: #5C4030;
+    margin-top: 20px;
+    font-family: poppins;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+ }
+
+ .categorías {
+    list-style-type: none;
+    margin-left: 20px;
+    font-family: poppins;
+    color: #5C4030;
+}
+
+.categorías h1 {
+    font-size: 22px;
+}
+
+.categorías {
+    margin-top: 20px;
+}

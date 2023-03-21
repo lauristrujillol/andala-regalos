@@ -1,0 +1,100 @@
+@media screen and (max-width: 767px) {
+
+    
+    .banner-home {
+            width: 100%;
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    .tarjetasRebajas {
+        margin-top: 20px;
+        column-gap: 20px;
+        row-gap: 10px;
+        }
+    
+    .tarjeticas {
+            width: 200px;
+            height: 280px;
+            margin-top: 5px;
+            column-gap: 80px;
+            row-gap: 20px;
+            background-color: #ffffff;
+        
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+        }
+    
+    .tarjetas {
+            margin-top: 20px;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+    
+    .card {
+            width: 200px; 
+            height: 310px;
+        }
+    
+    .card_title {
+                font-size: 16px;
+                font-family: poppins;
+                font-weight: 600;
+                color:#372216;
+                margin-left: 8px;
+        }
+    
+    .andala {
+        margin-top: 20px;
+        column-gap: 20px;
+        row-gap: 10px;
+        }
+    
+    .center1 {
+            width: 100%;
+         
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    .cifras {
+        font-family: poppins;
+    
+        column-gap: 20px;
+        row-gap: 10px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .datos {
+        width: 200px;
+    }
+    
+    
+    .datos h1 {
+        height: 80px;
+        font-size: 50px;
+        color: #F2BB80;
+    }
+    
+    .datos h2 {
+        font-size: 11px;
+        color: #372216;
+    }
+    
+    .categorías {
+        display: none;
+        
+    }
+    
+    .mapa {
+        display: none;
+    }
+    
+    }
